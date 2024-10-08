@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000CD;
+    height: 8rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: yellow;
+}
+
+.primeira img {
+    max-width: 15rem;
+    height: 15rem;
+    margin-right: 10px;
+}
+
+.segunda {
+    padding: 1.5rem;
+    margin: 2rem;
+    background-color: #00FF00;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.segunda img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 10px;
+    
+}
+
+p {
+    margin: 0;
+    max-width: 15rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1.5rem;
+    background-color: #FF0000;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.terceira img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 0;
+}
